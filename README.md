@@ -1,4 +1,4 @@
-# Conversio
+# Conversio (still in development)
 
 Conversio is an open source tool for money conversion using the [Google money converter](https://www.google.com/finance/converter).
 
@@ -16,4 +16,10 @@ The response format:
   from: 'USD',
   to: 'MXN'
 }
+```
+
+You can also obtain the exchange rate between two currencies:
+```js
+const {getExchangeRate} = require('currencio');
+getExchangeRate({from: 'USD', to: 'MXN'}, callback);
 ```

@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+module.exports = `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
 <title>Currency Converter - Google Finance</title>
@@ -362,7 +362,7 @@
               </select>
             </div>
             &nbsp;
-            <div id=currency_converter_result>1 MXN = <span class=bld>0.0520 USD</span>
+            <div id=currency_converter_result>1 MXN = <span class=bld>0.0521 USD</span>
               <input type=submit value="Convert">
             </div>
             <input type=hidden name=meta value=ei&#61;WovZV4HKEYXSeN2drNAM>
@@ -370,4 +370,4 @@
           </body>
         </div>
         </html>
-
+`;

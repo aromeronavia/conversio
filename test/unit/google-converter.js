@@ -1,11 +1,12 @@
 const nock = require('nock');
 
-const convert = require('./../../lib/google-converter.js');
-const validConversionFixture = require('./page.js');
+const converter = require('./../../lib/google-converter.js');
+const validConversionFixture = require('./responses/page.js');
 
 const API_URL = 'https://www.google.com';
 
 describe('Google money converter', () => {
+  const convert = converter.convert;
   afterEach(() => {
     nock.cleanAll();
   });

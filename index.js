@@ -1,10 +1,6 @@
-const googleConverter = require('./lib/google-converter');
+const converter = require('./lib/google-converter');
 
-module.exports = converter => {
-  const converters = {
-    google: googleConverter
-  };
-
+module.exports = () => {
   const convert = ({amount, from, to}, callback) => {
     return converter.convert({amount, from, to}, callback);
   };
@@ -13,5 +9,5 @@ module.exports = converter => {
     return converter.convert({amount: 1, from, to}, callback);
   };
 
-  return {converters, convert, getExchangeRate};
+  return { convert, getExchangeRate };
 };

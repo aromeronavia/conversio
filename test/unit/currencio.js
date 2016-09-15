@@ -12,7 +12,7 @@ describe('Currencio', () => {
   let getExchangeRate;
 
   beforeEach(() => {
-    const currencio = Currencio(googleConverter);
+    const currencio = Currencio();
     convert = currencio.convert;
     getExchangeRate = currencio.getExchangeRate;
   });

@@ -1,4 +1,4 @@
-# Conversio (still in development)
+# [DEPRECATED] Conversio
 
 Conversio is an open source tool for money conversion using the [Google money converter](https://www.google.com/finance/converter).
 
